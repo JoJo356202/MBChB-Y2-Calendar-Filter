@@ -1,11 +1,21 @@
 [README.md](https://github.com/user-attachments/files/25112771/README.md)
-# MBChB Year 2 Calendar Filter
+# AI-generated MBChB Year 2 Calendar Filter
 
 A web-based tool for the University of Auckland MBChB Year 2 students to filter their calendar based on group assignments.
 
 ## Overview
 
 This AI-generated tool helps you create a personalised calendar by filtering out group-specific events that don't apply to you. It processes ICS calendar files and keeps only the events relevant to your assigned groups, as well as all general lectures and events.
+
+Disclaimers
+
+⚠️ **USE AT YOUR OWN RISK**
+
+- This tool is provided as-is with **no guarantee of 100% accuracy**
+- Always **double-check** the filtered calendar against your original
+- **Review the removed events list** carefully before relying on the filtered calendar
+- The tool may not catch all edge cases or unusual formatting
+- This is a student-made tool and is not officially affiliated with or endorsed by the University of Auckland
 
 ## Features
 
@@ -132,16 +142,6 @@ The tool recognizes these patterns in event titles:
 - **SGA**: "SGA Group: 5-10", "SGA: 5-10", "SGA Group: 7"
 - **HAL Lab**: "HAL Lab Group: 3A-8A", "HAL: 5B-10B", "Tbl 1A-5A"
 - **Nutrition**: "Nutrition Group: 2-5", "Nutrition: 3-6"
-
-## Important Disclaimers
-
-⚠️ **USE AT YOUR OWN RISK**
-
-- This tool is provided as-is with **no guarantee of 100% accuracy**
-- Always **double-check** the filtered calendar against your original
-- **Review the removed events list** carefully before relying on the filtered calendar
-- The tool may not catch all edge cases or unusual formatting
-- This is a student-made tool and is not officially affiliated with or endorsed by the University of Auckland
 
 ## Troubleshooting
 
