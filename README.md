@@ -15,6 +15,7 @@ This AI-generated tool helps you create a personalised calendar by filtering out
 - Always **double-check** the filtered calendar against your original
 - **Review the removed events list** carefully before relying on the filtered calendar
 - The tool may not catch all edge cases or unusual formatting
+- The downloaded ICS file from the timetable website does include classes that do not show up on the timetable on the website
 - This is a student-made tool and is not officially affiliated with or endorsed by the University of Auckland
 
 ## Features
