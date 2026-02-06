@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/25112771/README.md)
 # AI-generated MBChB Year 2 Calendar Filter
 
-A web-based tool for the University of Auckland MBChB Year 2 students to filter their calendar based on group assignments.
+A web-based tool for the University of Auckland MBChB Year 2 students to filter their calendar based on group numbers.
 
 ## Overview
 
