@@ -57,20 +57,37 @@ Enter your assigned group numbers for each category:
 - HAL Lab has separate A and B classes - make sure you enter the correct letter
 - All three fields are required
 
-### Step 5: Choose Your Options
+### Step 5: Preview Your Filtered Calendar
+
+1. Click the **"Preview Filtered Calendar"** button
+2. A summary panel will appear on the right side showing:
+   - Total events that will be kept
+   - Total events that will be removed
+   - **Complete list of all removed events** for you to review
+
+### Step 6: Review and Restore Events
+
+**CRITICAL STEP**: Always review the removed events list!
+
+The summary panel shows every event that was filtered out. For each removed event:
+- Review the event title to confirm it should be removed
+- If an event was incorrectly removed, click the **"Add"** button next to it to restore it
+- Restored events will be crossed out and marked with a ✓
+- The event count in the download button updates automatically
+
+**If you see any events that shouldn't have been removed**, click the "Add" button to restore them!
+
+# Step 7: Choose Your Download Option
+
+In the summary panel at the top, you have two options:
 
 #### Option A: Single Filtered Calendar (Default)
 
-Leave the "Split into separate files" checkbox **unchecked**. This will:
-- Create one filtered calendar with all your relevant events
-- Show a summary panel on the right with:
-  - Number of events kept
-  - Number of events removed
-  - **Complete list of all removed events** (review this carefully!)
+Leave the "Split into separate files by category" checkbox **unchecked**. This will create one filtered calendar with all your relevant events.
 
 #### Option B: Split by Category
 
-Check the "Split into separate files" box. This will download **separate ICS files** for each category:
+Check the **"Split into separate files by category"** box. This will download **separate ICS files** for each category:
 - `lectures.ics` - All lecture events
 - `hal_labs.ics` - HAL Lab events for your table
 - `sga_groups.ics` - SGA Group events for your group
@@ -81,29 +98,17 @@ Check the "Split into separate files" box. This will download **separate ICS fil
 
 This allows you to import different event types into different calendar apps or color-code them differently.
 
-### Step 6: Filter Your Calendar
+### Step 8: Download Your Calendar
 
-1. Click the **"Filter Calendar"** button
-2. Your filtered calendar(s) will automatically download
-3. Review the **Events Summary** panel on the right side (for single calendar option)
+1. Click the **"⬇️ Download Filtered Calendar"** button at the top of the summary panel
+2. Your filtered calendar file(s) will automatically download
+3. The download button shows the total number of events (including any restored events)
 
-### Step 7: Review Removed Events
-
-**CRITICAL STEP**: Always check the removed events list!
-
-The side panel will show every event that was filtered out. Review this list to ensure:
-- ✓ HAL Lab events for other tables/classes are correctly removed (e.g., if you're in 5A, events for 5B, 10B-15B, etc. should be removed)
-- ✓ SGA events for other groups are correctly removed
-- ✓ Nutrition Lab events for other groups are correctly removed
-- ✓ No general lectures or important events were accidentally removed
-
-**If you see any events that shouldn't have been removed**, do not rely on the filtered calendar - check back with your original calendar.
-
-### Step 8: Import to Your Calendar App
+### Step 9: Import to Your Calendar App
 
 1. Open your calendar application (Google Calendar, Outlook, Apple Calendar, etc.)
 2. Import the downloaded ICS file(s)
-3. Double-check a few events against your original calendar to verify accuracy
+3. Double-check your events against your original calendar to verify accuracy
 
 ## How It Works
 
@@ -155,16 +160,28 @@ The tool recognises these patterns in event titles:
 - Check that you entered your group numbers correctly
 - Verify your group assignments are accurate
 - Review the event title format - the tool may not recognize unusual formats
+- **Use the "Add" button to restore any incorrectly removed events**
 
 ### Events I don't need are being kept
 - The tool keeps all events that don't mention specific groups
 - If an event should have a group but doesn't, it will be kept
-- You may need to manually remove these from your calendar app
+- You may need to manually remove these from your calendar app after importing
 
 ### HAL Lab filtering isn't working correctly
 - Make sure you include the letter (A or B) in your table number
 - Remember A and B classes are completely separate (5A ≠ 5B)
 - Check the removed events list to verify correct filtering
+- For events with multiple ranges (e.g., "Tbl 1A-5A & Tbl 1B-5B"), make sure at least one range matches your group
+
+### Restore button not working
+- Make sure you've clicked "Preview Filtered Calendar" first
+- The "Add" button should change to "✓" when clicked
+- Check that the event count in the download button updates
+- Try refreshing the page and starting over if issues persist
+
+### Split files option not working
+- Make sure you check the "Split into separate files" box in the summary panel (not the main panel)
+- The checkbox appears after you preview the filtered calendar
 
 ## Technical Details
 
@@ -187,6 +204,10 @@ Found a bug or have a suggestion? Feel free to:
 - Support for SGA, HAL Lab, and Nutrition group filtering
 - Events summary panel
 - Category splitting option
+
+###v1.1
+- Fixed issue with missing class
+- Restore button to add back incorrectly removed events
 
 ---
 
