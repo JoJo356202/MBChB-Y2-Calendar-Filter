@@ -205,7 +205,7 @@ Found a bug or have a suggestion? Feel free to:
 - Events summary panel
 - Category splitting option
 
-###v1.1
+### v1.1
 - Fixed issue with missing class
 - Restore button to add back incorrectly removed events
 
